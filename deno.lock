@@ -1,0 +1,48 @@
+{
+  "version": "3",
+  "packages": {
+    "specifiers": {
+      "npm:@bufbuild/protobuf@^2.0.0": "npm:@bufbuild/protobuf@2.0.0",
+      "npm:@connectrpc/connect-node@^2.0.0-alpha": "npm:@connectrpc/connect-node@2.0.0-alpha.1_@bufbuild+protobuf@2.0.0_@connectrpc+connect@2.0.0-alpha.1__@bufbuild+protobuf@2.0.0",
+      "npm:@connectrpc/connect@^2.0.0-alpha": "npm:@connectrpc/connect@2.0.0-alpha.1_@bufbuild+protobuf@2.0.0"
+    },
+    "npm": {
+      "@bufbuild/protobuf@2.0.0": {
+        "integrity": "sha512-sw2JhwJyvyL0zlhG61aDzOVryEfJg2PDZFSV7i7IdC7nAE41WuXCru3QWLGiP87At0BMzKOoKO/FqEGoKygGZQ==",
+        "dependencies": {}
+      },
+      "@connectrpc/connect-node@2.0.0-alpha.1_@bufbuild+protobuf@2.0.0_@connectrpc+connect@2.0.0-alpha.1__@bufbuild+protobuf@2.0.0": {
+        "integrity": "sha512-8V4iVs0nBU3lQCaKt6KmJeaGRvfjyUqJ4XZbMQDxP45xyvEZOOSsUCzeoJCMMhRAWEKzguPkYZI8B4RmepPREQ==",
+        "dependencies": {
+          "@bufbuild/protobuf": "@bufbuild/protobuf@2.0.0",
+          "@connectrpc/connect": "@connectrpc/connect@2.0.0-alpha.1_@bufbuild+protobuf@2.0.0",
+          "undici": "undici@5.28.4"
+        }
+      },
+      "@connectrpc/connect@2.0.0-alpha.1_@bufbuild+protobuf@2.0.0": {
+        "integrity": "sha512-eAjezEy1m+7bDtWt/TeXY2qIayq7R+WW8Jqwq3p8Q7ZTHpFJu0SBQivhRGQbNXSYR+QmqMk+j/FLAVlgB6CfHA==",
+        "dependencies": {
+          "@bufbuild/protobuf": "@bufbuild/protobuf@2.0.0"
+        }
+      },
+      "@fastify/busboy@2.1.1": {
+        "integrity": "sha512-vBZP4NlzfOlerQTnba4aqZoMhE/a9HY7HRqoOPaETQcSQuWEIyZMHGfVu6w9wGtGK5fED5qRs2DteVCjOH60sA==",
+        "dependencies": {}
+      },
+      "undici@5.28.4": {
+        "integrity": "sha512-72RFADWFqKmUb2hmmvNODKL3p9hcB6Gt2DOQMis1SEBaV6a4MH8soBvzg+95CYhCKPFedut2JY9bMfrDl9D23g==",
+        "dependencies": {
+          "@fastify/busboy": "@fastify/busboy@2.1.1"
+        }
+      }
+    }
+  },
+  "remote": {},
+  "workspace": {
+    "dependencies": [
+      "npm:@bufbuild/protobuf@^2.0.0",
+      "npm:@connectrpc/connect-node@^2.0.0-alpha",
+      "npm:@connectrpc/connect@^2.0.0-alpha"
+    ]
+  }
+}
